@@ -1,0 +1,17 @@
+print("-------------------------BEM-VINDO------------------------")
+print("--------------------Conversor de Medidas------------------")
+print("")
+medida = int(input("Digite 1 para Converter de Celsius para Fahrenheit \nDigite 0 para converter de Fahrenheit para Celsius\n"))
+if (medida == 1):
+    print("")  
+    c = float(input("Esta quantos graus Celsius? \n "))
+    f = float ((c*9/5)+32)
+    print("São",f,"graus Fahrenheit.")    
+    print("Parabéns!!! Você conseguiu os graus Fahrenheit.")
+else:
+    print("")
+    f = float(input("Esta quantos graus Fahrenheit? \n "))
+    c = float ((f-32)*5/9) 
+    print("São",c,"graus Celsius.")    
+    print("")
+    print("Parabéns!! Você conseguiu os graus Celsius.")      
